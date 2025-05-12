@@ -1,0 +1,230 @@
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #222; 
+      background-color: #ffffff; 
+    }
+    
+/* Logo Container */
+.logo-container {
+    display: flex;
+    justify-content: center; 
+    width: 100%;
+}
+
+/* Logo Image */
+.logo {
+    width: 100%;
+    max-width: 180px;  
+    height: auto;
+    display: block; 
+}
+
+
+@media (max-width: 768px) {
+    .logo {
+        max-width: 150px; 
+    }
+}
+
+@media (max-width: 480px) {
+    .logo {
+        max-width: 120px;
+    }
+}
+    .container {
+      width: 90%;
+      max-width: 1100px;
+      margin: auto;
+      padding: 40px 0;
+    }
+
+    .hero {
+      background-color: #464CF0; 
+      color: #F0CF46; 
+      text-align: center;
+      padding: 100px 20px;
+    }
+
+    .hero .btn {
+      background-color: #ff9900; 
+      color: #fff; 
+      padding: 12px 24px;
+      margin-top: 20px;
+      display: inline-block;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+
+    section h2 {
+      font-size: 2em;
+      margin-bottom: 20px;
+      color: #222; 
+    }
+
+    section h3 {
+      font-size: 2em;
+      margin-bottom: 20px;
+      color: #F0CF46;
+    }
+
+    .about {
+      background-color: #ffffff; 
+    }
+
+
+
+/* Projects Section */
+
+#projects {
+    padding: 40px 20px;
+    background-color: #FFF;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px; 
+}
+
+#projects h2 {
+    text-align: center;
+    font-size: 28px;
+    color: #683EDA; 
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+/* Each project */
+.project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFF;
+    padding: 20px;
+    width: 30%; 
+    box-sizing: border-box;
+    border-radius: 0; 
+}
+
+.project img {
+    width: 100%;
+    max-width: 100%; 
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.project .description h3 {
+    font-size: 24px;
+    color: #683EDA; 
+    margin-bottom: 10px;
+}
+
+.project .description p {
+    font-size: 16px;
+    color: #222; 
+}
+
+/* Responsive for smaller screens */
+@media (max-width: 768px) {
+    .project {
+        width: 45%; 
+    }
+}
+
+@media (max-width: 480px) {
+    .project {
+        width: 100%; 
+    }
+}
+
+/*services*/
+    .services {
+      background-color: #eeeeee; 
+      text-align: center;
+
+    }
+
+    .services ul {
+      list-style: disc;
+      padding-left: 20px;
+    }
+
+   /* Reviews Section */
+#reviews {
+    padding: 40px 20px;
+    background-color: #E9E9E9;
+}
+
+#reviews h2 {
+    text-align: center;
+    font-size: 28px;
+    color: #645199; 
+    margin-bottom: 30px;
+}
+
+.review {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #FFF;
+    border-radius: 10px;
+}
+
+.review .name {
+    font-weight: bold;
+    font-size: 18px;
+    color: #4B4659;
+}
+
+.review .title {
+    font-style: italic;
+    color: #645199;
+    margin: 5px 0;
+}
+
+.review .rating {
+    color: #D9CC3D; 
+    margin-bottom: 10px;
+}
+
+.review .content {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #33322C;
+}
+
+    .contact {
+      background-color: #464CF0; 
+      color: #fff; 
+    }
+
+    .contact input,
+    .contact textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: none;
+      border-radius: 5px;
+    }
+
+    .contact button {
+      background-color: #ff9900 ; 
+      color: #ffffff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    footer {
+      background-color: #222; 
+      color: #fff; 
+      text-align: center;
+      padding: 20px 0;
+    }
